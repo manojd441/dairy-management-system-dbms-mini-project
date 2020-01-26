@@ -1,0 +1,44 @@
+body{
+	background-color:pink;
+	color:brown;
+	font:normal 16px Arial,Helvetica,sans-serif; 
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width=80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+#main-header{
+	padding:25px;
+	background-color:coral;
+	color:white;
+	text-align:center;
+	font-size:22px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    text-align:center;
+    font-weight: bold;
+}
+
+.span{
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+	padding-left:20px;
+}
+
+.span .span3 img{
+	width: 250px;
+    height: 250px;	
+}
+
+
+

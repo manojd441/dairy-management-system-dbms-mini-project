@@ -1,0 +1,75 @@
+body{
+	background-color:pink;
+	color:brown;
+	font:normal 16px Arial,Helvetica,sans-serif; 
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width=80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+#main-header{
+	padding:25px;
+	background-color:coral;
+	color:white;
+	text-align:center;
+	font-size:22px;
+}
+.button{
+	background-color:blue;
+	color:white;
+	padding:10px 20px;
+	border:none;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
+.button:hover{
+	background-color:silver;
+	color:black;
+}
+
+.box-1{
+	
+	margin-top:0px;
+	border:5px red solid; 
+	background-color:cyan;
+	padding:0px;
+	padding-top:0px;
+	margin-left:420px;
+	margin-right:420px;
+	text-align:center;
+}
+
+.box-1 h1{
+	text-align:center;
+	font-size:45px;
+}
+
+.my-form{
+	padding:25px;
+	text-align:center;
+}
+/*
+.my-form label{
+	display:block;
+}
+*/
+.my-forms .form-group{
+	padding-bottom:18px;
+}
+
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	
+}
+
+.my-form input[type="date"] {
+	padding:8px;
+	}

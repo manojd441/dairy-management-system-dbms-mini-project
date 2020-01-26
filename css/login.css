@@ -1,0 +1,114 @@
+﻿body{
+	background-color:pink;
+	color:brown;
+	font:normal 16px Arial,Helvetica,sans-serif; 
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	width=80%;
+	margin:auto;
+	overflow:hidden;
+
+}
+
+
+.button{
+	background-color:;
+	color:yellow;
+	padding:5px 10px;
+	border:none;
+	text-align:center;
+}
+.button:hover{
+	background-color:silver;
+	color:black;
+}
+
+#main-header{
+	padding:25px;
+	background-color:coral;
+	color:white;
+	text-align:center;
+	font-size:22px;
+}
+
+
+#navbar{
+	padding-left:30px;
+	background-color:black;
+	color:white;
+}
+
+#navbar ul{
+	padding:0;
+	list-style:none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+#navbar a:hover{
+	color:yellow;
+}
+
+.box-1{
+	
+	margin-top:80px;
+	border:5px red solid; 
+	background-color:cyan;
+	padding:50px;
+	padding-top:36px;
+	margin-left:400px;
+	margin-right:400px;
+	text-align:center;
+}
+
+.box-1 h1{
+	text-align:center;
+	font-size:45px;
+}
+
+.my-form{
+	padding:25px;
+	text-align:center;
+}
+/*
+.my-form label{
+	display:block;
+}
+*/
+.my-forms .form-group{
+	padding-bottom:18px;
+}
+
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	
+}
+
+.my-form input[type="email"], .my-form textarea{
+	padding:8px;
+	
+}
+
+.span{
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+}
+
+.span .span3 img{
+	width: 220px;
+    height: 220px;	
+}
